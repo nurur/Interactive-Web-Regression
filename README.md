@@ -18,9 +18,13 @@ To see what these applications do walk trough the following steps.
 5. go to 'shinyApp' and launch R
 
 A) One way to run shiny, type the following in the R prompt
+
 library(shiny)
+
 runApp("directory name of myApp1") # to run myApp 1
+
 or 
+
 runApp("directory name of myApp2") # to run myApp 2
 
 
