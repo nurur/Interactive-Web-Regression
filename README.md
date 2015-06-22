@@ -5,30 +5,30 @@ This repository contains R scripts for performing interactive regression
 analysis and showing contingency tables on the web by using R 'shiny' package.
 
 
-To see what these applications do walk trough the following steps. 
-1. create a directory anywhere in your current working and name it as 'shinyApp' 
+To see what these applications, simply do walk trough the following steps:
 
-2. inside shinyApp, create two more directories and name them as myApp1 & myApp2
+1. create a directory anywhere in your current working directory and name it, for example, as 'shinyApp' 
 
-3. save the codes from myApp1 inside your myApp1
+2. inside shinyApp, create two more directories and name them as 'myApp1' & 'myApp2'
 
-4. save the codes from myApp2 inside your myApp2
+3. save the codes from the myApp1 repo above inside the myApp1 directory in your machine
 
+4. save the codes from the myApp2 repo above inside the myApp2 directory in your machine
 
-5. go to 'shinyApp' and launch R
+5. go to your 'shinyApp' directory and launch R
 
-A) One way to run shiny, type the following in the R prompt
+A) One way to run shiny, type the following commands in the R prompt
 
 library(shiny)
 
-runApp("directory name of myApp1") # to run myApp 1
+runApp("absolute path of myApp1") # to run myApp 1
 
 or 
 
-runApp("directory name of myApp2") # to run myApp 2
+runApp("absolute path of myApp2") # to run myApp 2
 
 
-B) The other way is to run the script 'runShiny.R': 
+B) The other way is to get things done is by running the script 'runShiny.R' which include appropriate commands: 
 source('runShiny.R') 
 
 
@@ -39,4 +39,4 @@ sub-directory: myApp 1
 Plots confusion tables in the web
 
 sub-directory: myApp 2
-Plots interactive regresion in the web
+Plots interactive regression in the web
