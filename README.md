@@ -35,8 +35,11 @@ source('runShiny.R')
 
 
 Note :
+
 sub-directory: myApp 1
+
 Plots confusion tables in the web
 
 sub-directory: myApp 2
+
 Plots interactive regression in the web
